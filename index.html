@@ -98,7 +98,55 @@
             <div id="sliderContainer" class="row">
                 <div class="col-md-12" style="z-index:40">
                     <div id="eviivoBookingPartial">
-                        @Html.Partial("_EviivoBookingPartial")
+                        <!-- eviivo Availability Checker -->
+    <script type="text/javascript" src="http://securebooking.eviivo.com/roslynhouse.availabilitychecker.1.0.min.js"></script>
+    <script type="text/javascript">
+        eviivo.availabilitychecker.create('#availabilitychecker', {
+            industryTypes: [1],
+            allowCrossDomainTracking: true,
+            template: 'vertical'
+        });
+    </script>
+    <noscript><span class="eviivo_submit_noscript"><a href="http://securebooking.eviivo.com/mywebsite/roslynhouse.home" title="Book Online Now!">Check Availability</a></span><link rel="stylesheet" type="text/css" href="http://securebooking.eviivo.com/javascript/integration/eviivo.availabilitychecker.1.0.css" /></noscript>
+    <style type="text/css">
+        .eviivo_title {
+            margin-left: -8px;
+        }
+
+        .eviivo_availabilitychecker {
+            width: 180px !important;
+            height: auto !important;
+            color: #333333 !important;
+            background: #EEEEEE !important;
+            border: 1px solid #DDDDDD !important;
+            font-size: 12px !important;
+            font-family: Arial !important;
+        }
+
+        .eviivo_title span {
+            color: #000000 !important;
+            font-size: 12px !important;
+            font-family: Arial !important;
+        }
+
+        .eviivo_submit a {
+            color: #FFFFFF !important;
+            background: #F28226 !important;
+            border: 1px solid #CCCCCC !important;
+            font-size: 12px !important;
+            font-family: Arial !important;
+        }
+
+        select {
+            width: initial;
+        }
+
+        .eviivo_submit_wrap {
+            position: relative;
+            right: 14px;
+        }
+    </style>
+    <div id="availabilitychecker"></div>
                     </div>
 
                     <div class="photo_carousel">
