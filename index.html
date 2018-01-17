@@ -1,8 +1,14 @@
 
-
+<!DOCTYPE html>
+<html>
 <head>
-    <title>Home</title>
-        <link rel="stylesheet" type="text/css" href="/roslynhouseweb/css/site.css" />
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roslyn House | Home</title>
+    
+    <link rel="stylesheet" type="text/css" href="/roslynhouseweb/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/roslynhouseweb/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/roslynhouseweb/css/site.css" />
     <link rel="stylesheet" type="text/css" href="/roslynhouseweb/css/home.css" />
 </head>
 
@@ -30,6 +36,120 @@
             </div>
         </div>
     </div>
+
+<div class="container body-content shell">
+        <div id="header">
+            <div class="row">
+                <div class="col-md-2">
+                    <div id="TA_certificateOfExcellence889" class="TA_certificateOfExcellence">
+                        <ul id="h7DeREKkIJ" class="TA_links m9SH2LHm3g91">
+                            <li id="pOsgSd7kRDV" class="uosIWDJ">
+                                <a target="_blank" href="http://www.tripadvisor.co.uk/Hotel_Review-g804427-d788384-Reviews-Roslyn_House-Pateley_Bridge_North_Yorkshire_England.html"><img src="http://www.tripadvisor.co.uk/img/cdsi/img2/awards/CoE2015_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=889&amp;locationId=788384&amp;lang=en_UK&amp;year=2015&amp;display_version=2"></script>
+                </div>
+                <div class="col-md-1">
+                    <div id="AA-img" style="text-align:center;margin-top:9px">
+                        <img src="https://roslynhouse.blob.core.windows.net/roslynhouse/static_images/AA.gif" style="height:124px;" />
+                    </div>
+                </div>
+                <div class="col-md-6" style="text-align:center">
+                    <h1>ROSLYN HOUSE</h1>
+                    <h3 style="border-top:1px solid lightgrey;border-bottom:1px solid lightgrey;padding:5px 0;">GUEST HOUSE</h3>
+                </div>
+                <div class="col-md-3 address">
+                    <br>
+                    <p>
+                        King street <br>
+                        Pateley Bridge<br>
+                        North Yorkshire<br>
+                        HG3 5AT<br />
+                        United Kingdom<br>
+                        Tel: +44 (0)1423 711374 <br>
+                        Email:<a href="mailto:enquiries@roslynhouse.co.uk ">enquiries@roslynhouse.co.uk</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div id="nav" class="horizontal-nav">
+                        <div class="inner">
+                            <ul>
+                                <li class="@if(ViewBag.PageName == "home"){@("active")}" id="home"><a href="/Home" title="Roslyn Guest House">Home</a></li>
+                                @*<li class="@if(ViewBag.PageName == "booking"){@("active")}"><a href="/Information/Booking" title="Book Online">Book Online</a></li>*@
+                                <li class="@if(ViewBag.PageName == "rooms"){@("active")}"><a href="/Information/Rooms" title="Rooms">Rooms</a></li>
+                                @*<li class="@if(ViewBag.PageName == "offers"){@("active")}"><a href="/Information/SpecialOffers" title="Special Offers">Special Offers</a></li>*@
+                                <li class="@if(ViewBag.PageName == "location"){@("active")}"><a href="/Information/Location" title="Location Map">Location Map</a></li>
+                                <li class="@if(ViewBag.PageName == "food"){@("active")}"><a href="/Information/FoodDrink" title="Food & Drink">Food &amp; Drink</a></li>
+                                <li class="@if(ViewBag.PageName == "walking"){@("active")}"><a href="/Information/WalkingHolidays" title="Walking Holidays">Walking Holidays</a></li>
+                                <li class="@if(ViewBag.PageName == "attractions"){@("active")}"><a href="/Information/Attractions" title="Attractions">Attractions</a></li>
+                                @*<li class="@if(ViewBag.PageName == "history"){@("active")}"><a href="/Information/History" title="History">History</a></li>*@
+                                <li class="@if(ViewBag.PageName == "gallery"){@("active")}"><a href="/Information/Gallery" title="Photo Gallery">Photo Gallery</a></li>
+                                <li class="@if(ViewBag.PageName == "reviews"){@("active")}"><a href="/Information/Reviews" title="Reviews">Reviews</a></li>
+                                <li class="@if(ViewBag.PageName == "contact"){@("active")}"><a href="/Home/Contact" title="Contact">Contact</a></li>
+                            </ul>
+                            <!-- navigation ends-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*Photos*@
+            <div id="sliderContainer" class="row">
+                <div class="col-md-12" style="z-index:40">
+                    <div id="eviivoBookingPartial">
+                        @Html.Partial("_EviivoBookingPartial")
+                    </div>
+
+                    <div class="photo_carousel">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="banner item active">
+                                    <img src="https://roslynhouse.blob.core.windows.net/roslynhouse/static_images/superior_1.jpg">
+                                </div>
+                                <div class="banner item">
+                                    <img src="https://roslynhouse.blob.core.windows.net/roslynhouse/static_images/twin_double.jpg">
+                                </div>
+                                <div class="banner item">
+                                    <img src="https://roslynhouse.blob.core.windows.net/roslynhouse/static_images/double_room.jpg">
+                                </div>
+                                <div class="banner item">
+                                    <img src="https://roslynhouse.blob.core.windows.net/roslynhouse/static_images/superior.jpg">
+                                </div>
+
+                                <div class="banner item">
+                                    <img src="https://roslynhouse.blob.core.windows.net/roslynhouse/static_images/double.jpg">
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 <div class="row">
@@ -133,11 +253,15 @@
 
         <div style="text-align:center" class="content contentRight">
             <a target="_blank" style="display:inline-block;width:90px;padding:0 10px;" href="https://www.facebook.com/www.roslynhouse.co.uk?fref=ts">
-                <img src="~/images/fb.png" />
+                <img src="roslynhouseweb/images/fb.png" />
             </a>
-            <a target="_blank" style="display:inline-block;width:90px;padding:0 10px;" href="https://twitter.com/roslyn_house"><img src="~/images/twitter.png" /></a>
+            <a target="_blank" style="display:inline-block;width:90px;padding:0 10px;" href="https://twitter.com/roslyn_house"><img src="roslynhouseweb/images/twitter.png" /></a>
         </div>
 
     </div>
 
 </div>
+</div>
+
+</body>
+</html>
