@@ -1,0 +1,408 @@
+@media (max-width: 768px) {
+    .navbar-inverse {
+        display: block !important;
+    }
+
+    .navbar-collapse li {
+        width: 100%;
+        display: block;
+    }
+
+    .horizontal-nav {
+        display: none;
+    }
+}
+
+
+.navbar-inverse {
+    border-color: #58595b;
+    background-color: #58595b;
+    border-radius: 0;
+    display: none;
+}
+
+horizontal-nav {
+}
+
+body {
+    background-image: url('https://roslynhouse.blob.core.windows.net/roslynhouse/gallery/gallery_13.jpg');
+    font: 13px/1.231 arial, helvetica, clean, sans-serif;
+    background-size: cover;
+    color: #4e4e4e;
+    font-size: 12px;
+    line-height: 14px;
+    padding-bottom: 70px;
+    overflow-x: hidden;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+.shell {
+    width: 1050px;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 0 10px;
+    border-left: solid 0px #333;
+    border-right: solid 0px #333;
+}
+
+
+#banner {
+    max-width: 100%;
+}
+
+#AA-img {
+    position: absolute;
+    z-index: 999;
+    left: 3%;
+}
+
+    #AA-img img {
+        width: 90px;
+    }
+
+#header .address {
+    float: right;
+    text-align: right;
+}
+
+#nav .inner {
+    height: 28px;
+}
+
+#nav {
+    background-color: seagreen;
+    height: 28px;
+    padding-right: 5px;
+    font-family: "trebuchet ms", sans-serif;
+}
+
+    #nav ul {
+        list-style-type: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 28px;
+        text-align: center;
+    }
+
+    #nav li {
+        display: inline;
+        padding-right: 1px;
+    }
+
+        #nav li.active a {
+            text-decoration: underline;
+            color: #fff;
+        }
+
+        #nav li a {
+            display: inline;
+            color: #fff;
+            line-height: 28px;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0 12px;
+        }
+
+#photo .holder {
+    width: 926px;
+    position: relative;
+    z-index: 1;
+    float: left;
+    display: inline;
+    height: 320px;
+    /* background-color: #000080; */
+}
+
+.photo_carousel {
+    margin: 0 auto;
+    /*margin-left: 2px;*/
+    margin-top: 10px;
+}
+
+.contentLeft {
+    background: #fff;
+    border: solid 1px #dedede;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+    .contentLeft h3 {
+        font-size: 19px;
+    }
+
+    .contentLeft li {
+        font-weight: bold;
+    }
+
+.content ul {
+    padding: 0 30px;
+    list-style: circle;
+}
+
+.content li {
+    line-height: 22px;
+}
+
+.contentRight li {
+    font-size: 0.9em;
+}
+
+.contentRight h3 {
+    color: #0f89df;
+    font-size: 15px;
+    font-family: "trebuchet ms", sans-serif;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.btn-promo {
+    color: white;
+    background-color: #900000;
+    border-color: #900000;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.hide-bullets {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.photo_gallery {
+    background: #fff;
+    border: solid 1px #dedede;
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 2px solid lightgrey;
+}
+
+.mapContainer {
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 80px;
+    height: 70px;
+}
+
+
+.banner img {
+    height: 390px !important;
+    margin: 0 auto;
+}
+
+
+/*For custom block quotes*/
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid green;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+    blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 4em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+    }
+
+    blockquote p {
+        display: inline;
+    }
+
+/*For information containers*/
+.information {
+    padding: 10px;
+    border: solid 1px #777;
+    margin: 15px 15px;
+    -moz-box-shadow: 0px 1px 7px #CCC;
+    -webkit-box-shadow: 0px 1px 7px #CCC;
+    box-shadow: 0px 1px 7px #CCC;
+    background: #F9F9F9;
+}
+
+    .information p {
+        display: block;
+    }
+
+    .information div {
+        /*width: 400px;*/
+    }
+
+    .information .row div {
+    }
+
+    .information img {
+        width: 100%;
+        margin: 0 auto;
+        margin: 5px;
+        vertical-align: top;
+        background: #FFF;
+        padding: 2px;
+        border: solid 1px #e0e0e0;
+        -moz-box-shadow: 0px 0px 7px #CCC;
+        -webkit-box-shadow: 0px 0px 7px #CCC;
+        box-shadow: 0px 0px 7px #CCC;
+    }
+
+input, textarea, select {
+    float: right;
+    width: 200px;
+}
+
+textarea {
+    height: 60px;
+}
+
+
+/*Image gallery link*/
+.imageLink {
+    margin-top: 10px;
+}
+
+    .imageLink img {
+        width: 100%;
+        position: relative;
+    }
+
+
+h5 {
+    position: absolute;
+    top: 166px;
+    width: 100%;
+}
+
+    h5 span {
+        color: white;
+        font: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing: -1px;
+        background: rgb(0, 0, 0); /* fallback color */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+    }
+
+#eviivoBookingPartial {
+    position: absolute;
+    z-index: 999;
+    right: 3%;
+}
+
+.TA_certificateOfExcellence {
+    margin-top: 10px;
+}
+
+#CDSWIDCOE {
+    margin-left: 0 !important;
+}
+
+
+.row img {
+    max-width: 100%;
+}
+
+
+
+/* footer social icons */
+ul .roomFeatures {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+    ul .roomFeatures a {
+        color: black;
+        font-size: 1.3em;
+        margin: 0 5px;
+    }
+
+.reviewContent {
+    border: solid 1px #dedede;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+    .reviewContent i {
+        font-size: 1.6em;
+        color: darkgray;
+    }
+
+
+
+    .reviewContent p {
+        color: grey;
+        font-size: 1.2em;
+        line-height: 1.8;
+    }
+
+    .reviewContent h3 {
+        margin-left: 5px;
+        display: inline-block;
+    }
+
+
+
+.visit-web {
+    text-align: center;
+    width: 100%;
+    background-color: seagreen;
+    color: white;
+    border-radius: 2px;
+    padding: 6px;
+}
