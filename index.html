@@ -79,18 +79,15 @@
                     <div id="nav" class="horizontal-nav">
                         <div class="inner">
                             <ul>
-                                <li class="@if(ViewBag.PageName == "home"){@("active")}" id="home"><a href="/Home" title="Roslyn Guest House">Home</a></li>
-                                @*<li class="@if(ViewBag.PageName == "booking"){@("active")}"><a href="/Information/Booking" title="Book Online">Book Online</a></li>*@
-                                <li class="@if(ViewBag.PageName == "rooms"){@("active")}"><a href="/Information/Rooms" title="Rooms">Rooms</a></li>
-                                @*<li class="@if(ViewBag.PageName == "offers"){@("active")}"><a href="/Information/SpecialOffers" title="Special Offers">Special Offers</a></li>*@
-                                <li class="@if(ViewBag.PageName == "location"){@("active")}"><a href="/Information/Location" title="Location Map">Location Map</a></li>
-                                <li class="@if(ViewBag.PageName == "food"){@("active")}"><a href="/Information/FoodDrink" title="Food & Drink">Food &amp; Drink</a></li>
-                                <li class="@if(ViewBag.PageName == "walking"){@("active")}"><a href="/Information/WalkingHolidays" title="Walking Holidays">Walking Holidays</a></li>
-                                <li class="@if(ViewBag.PageName == "attractions"){@("active")}"><a href="/Information/Attractions" title="Attractions">Attractions</a></li>
-                                @*<li class="@if(ViewBag.PageName == "history"){@("active")}"><a href="/Information/History" title="History">History</a></li>*@
-                                <li class="@if(ViewBag.PageName == "gallery"){@("active")}"><a href="/Information/Gallery" title="Photo Gallery">Photo Gallery</a></li>
-                                <li class="@if(ViewBag.PageName == "reviews"){@("active")}"><a href="/Information/Reviews" title="Reviews">Reviews</a></li>
-                                <li class="@if(ViewBag.PageName == "contact"){@("active")}"><a href="/Home/Contact" title="Contact">Contact</a></li>
+                                <li class="active" id="home"><a href="/Home" title="Roslyn Guest House">Home</a></li>
+                                <li><a href="/Information/Rooms" title="Rooms">Rooms</a></li>
+                                <li><a href="/Information/Location" title="Location Map">Location Map</a></li>
+                                <li><a href="/Information/FoodDrink" title="Food & Drink">Food &amp; Drink</a></li>
+                                <li><a href="/Information/WalkingHolidays" title="Walking Holidays">Walking Holidays</a></li>
+                                <li><a href="/Information/Attractions" title="Attractions">Attractions</a></li>
+                                <li><a href="/Information/Gallery" title="Photo Gallery">Photo Gallery</a></li>
+                                <li><a href="/Information/Reviews" title="Reviews">Reviews</a></li>
+                                <li><a href="/Home/Contact" title="Contact">Contact</a></li>
                             </ul>
                             <!-- navigation ends-->
                         </div>
@@ -98,7 +95,6 @@
                 </div>
             </div>
 
-            @*Photos*@
             <div id="sliderContainer" class="row">
                 <div class="col-md-12" style="z-index:40">
                     <div id="eviivoBookingPartial">
@@ -232,7 +228,7 @@
     <div class="col-md-4 ">
 
         <div class="content contentRight imageLink">
-            <a href="/Information/Gallery"><img src="~/images/banner_1_full.jpg" /></a>
+            <a href="/Information/Gallery"><img src="images/banner_1_full.jpg" /></a>
             <a href="/Information/Gallery"> <h5><span>Click to View our Gallery</span></h5></a>
         </div>
 
