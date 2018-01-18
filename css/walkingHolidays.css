@@ -1,0 +1,23 @@
+.walking-title {
+    background-color: #ddd;
+    padding-left: 4px;
+    width: 95%;
+    color: black;
+}
+
+
+.walking-container {
+    margin-bottom: 5px;
+    border-bottom: 1px dashed grey;
+    color: black;
+}
+
+    .walking-container img {
+        margin-bottom: 5px;
+    }
+
+
+.contentLeft .row {
+    margin-left: 0;
+    margin-right: 0;
+}
